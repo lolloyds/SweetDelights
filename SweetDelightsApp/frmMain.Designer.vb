@@ -29,8 +29,8 @@ Partial Class frmMain
         '
         'btnCustomers
         '
-        Me.btnCustomers.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.btnCustomers.Location = New System.Drawing.Point(327, 28)
+        Me.btnCustomers.BackColor = System.Drawing.SystemColors.Window
+        Me.btnCustomers.Location = New System.Drawing.Point(42, 36)
         Me.btnCustomers.Name = "btnCustomers"
         Me.btnCustomers.Size = New System.Drawing.Size(190, 150)
         Me.btnCustomers.TabIndex = 0
@@ -39,8 +39,8 @@ Partial Class frmMain
         '
         'btnOrders
         '
-        Me.btnOrders.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.btnOrders.Location = New System.Drawing.Point(327, 221)
+        Me.btnOrders.BackColor = System.Drawing.SystemColors.Window
+        Me.btnOrders.Location = New System.Drawing.Point(558, 376)
         Me.btnOrders.Name = "btnOrders"
         Me.btnOrders.Size = New System.Drawing.Size(190, 150)
         Me.btnOrders.TabIndex = 1
@@ -49,8 +49,9 @@ Partial Class frmMain
         '
         'btnProducts
         '
-        Me.btnProducts.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.btnProducts.Location = New System.Drawing.Point(327, 409)
+        Me.btnProducts.BackColor = System.Drawing.SystemColors.Window
+        Me.btnProducts.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnProducts.Location = New System.Drawing.Point(285, 222)
         Me.btnProducts.Name = "btnProducts"
         Me.btnProducts.Size = New System.Drawing.Size(190, 150)
         Me.btnProducts.TabIndex = 2

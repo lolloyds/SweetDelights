@@ -45,7 +45,7 @@ Partial Class frmOrder
         'cmbCustomer
         '
         Me.cmbCustomer.FormattingEnabled = True
-        Me.cmbCustomer.Location = New System.Drawing.Point(43, 38)
+        Me.cmbCustomer.Location = New System.Drawing.Point(133, 11)
         Me.cmbCustomer.Name = "cmbCustomer"
         Me.cmbCustomer.Size = New System.Drawing.Size(257, 21)
         Me.cmbCustomer.TabIndex = 0
@@ -53,7 +53,7 @@ Partial Class frmOrder
         'cmbCake
         '
         Me.cmbCake.FormattingEnabled = True
-        Me.cmbCake.Location = New System.Drawing.Point(422, 38)
+        Me.cmbCake.Location = New System.Drawing.Point(521, 12)
         Me.cmbCake.Name = "cmbCake"
         Me.cmbCake.Size = New System.Drawing.Size(257, 21)
         Me.cmbCake.TabIndex = 1
@@ -61,7 +61,7 @@ Partial Class frmOrder
         'cmbIcing
         '
         Me.cmbIcing.FormattingEnabled = True
-        Me.cmbIcing.Location = New System.Drawing.Point(43, 100)
+        Me.cmbIcing.Location = New System.Drawing.Point(133, 49)
         Me.cmbIcing.Name = "cmbIcing"
         Me.cmbIcing.Size = New System.Drawing.Size(257, 21)
         Me.cmbIcing.TabIndex = 2
@@ -69,14 +69,14 @@ Partial Class frmOrder
         'cmbTopping
         '
         Me.cmbTopping.FormattingEnabled = True
-        Me.cmbTopping.Location = New System.Drawing.Point(422, 100)
+        Me.cmbTopping.Location = New System.Drawing.Point(133, 89)
         Me.cmbTopping.Name = "cmbTopping"
         Me.cmbTopping.Size = New System.Drawing.Size(257, 21)
         Me.cmbTopping.TabIndex = 3
         '
         'numQuantity
         '
-        Me.numQuantity.Location = New System.Drawing.Point(501, 141)
+        Me.numQuantity.Location = New System.Drawing.Point(521, 51)
         Me.numQuantity.Name = "numQuantity"
         Me.numQuantity.Size = New System.Drawing.Size(92, 20)
         Me.numQuantity.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class frmOrder
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(43, 74)
+        Me.TextBox3.Location = New System.Drawing.Point(43, 49)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(73, 20)
         Me.TextBox3.TabIndex = 7
@@ -107,7 +107,7 @@ Partial Class frmOrder
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(422, 74)
+        Me.TextBox4.Location = New System.Drawing.Point(43, 90)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(73, 20)
         Me.TextBox4.TabIndex = 8
@@ -115,7 +115,7 @@ Partial Class frmOrder
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(422, 140)
+        Me.TextBox5.Location = New System.Drawing.Point(422, 50)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(73, 20)
         Me.TextBox5.TabIndex = 9
@@ -124,14 +124,14 @@ Partial Class frmOrder
         'dgvOrderDetails
         '
         Me.dgvOrderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvOrderDetails.Location = New System.Drawing.Point(43, 184)
+        Me.dgvOrderDetails.Location = New System.Drawing.Point(43, 140)
         Me.dgvOrderDetails.Name = "dgvOrderDetails"
         Me.dgvOrderDetails.Size = New System.Drawing.Size(701, 216)
         Me.dgvOrderDetails.TabIndex = 10
         '
         'btnAddItem
         '
-        Me.btnAddItem.Location = New System.Drawing.Point(599, 141)
+        Me.btnAddItem.Location = New System.Drawing.Point(680, 51)
         Me.btnAddItem.Name = "btnAddItem"
         Me.btnAddItem.Size = New System.Drawing.Size(98, 20)
         Me.btnAddItem.TabIndex = 11
@@ -141,7 +141,7 @@ Partial Class frmOrder
         'lblTotal
         '
         Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTotal.Location = New System.Drawing.Point(54, 456)
+        Me.lblTotal.Location = New System.Drawing.Point(122, 370)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(72, 23)
         Me.lblTotal.TabIndex = 12
@@ -149,7 +149,7 @@ Partial Class frmOrder
         '
         'Label2
         '
-        Me.Label2.Location = New System.Drawing.Point(40, 421)
+        Me.Label2.Location = New System.Drawing.Point(44, 370)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 23)
         Me.Label2.TabIndex = 13
@@ -158,7 +158,7 @@ Partial Class frmOrder
         '
         'btnRemoveItem
         '
-        Me.btnRemoveItem.Location = New System.Drawing.Point(624, 408)
+        Me.btnRemoveItem.Location = New System.Drawing.Point(605, 370)
         Me.btnRemoveItem.Name = "btnRemoveItem"
         Me.btnRemoveItem.Size = New System.Drawing.Size(120, 36)
         Me.btnRemoveItem.TabIndex = 14
@@ -167,7 +167,7 @@ Partial Class frmOrder
         '
         'btnPlaceOrder
         '
-        Me.btnPlaceOrder.Location = New System.Drawing.Point(501, 408)
+        Me.btnPlaceOrder.Location = New System.Drawing.Point(496, 370)
         Me.btnPlaceOrder.Name = "btnPlaceOrder"
         Me.btnPlaceOrder.Size = New System.Drawing.Size(103, 36)
         Me.btnPlaceOrder.TabIndex = 15

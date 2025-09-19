@@ -46,56 +46,56 @@ Partial Class frmCustomer
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(22, 310)
+        Me.txtFirstName.Location = New System.Drawing.Point(33, 285)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(297, 20)
         Me.txtFirstName.TabIndex = 0
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(442, 310)
+        Me.txtLastName.Location = New System.Drawing.Point(415, 325)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(297, 20)
         Me.txtLastName.TabIndex = 1
         '
         'txtContactNumber
         '
-        Me.txtContactNumber.Location = New System.Drawing.Point(22, 388)
+        Me.txtContactNumber.Location = New System.Drawing.Point(33, 325)
         Me.txtContactNumber.Name = "txtContactNumber"
         Me.txtContactNumber.Size = New System.Drawing.Size(297, 20)
         Me.txtContactNumber.TabIndex = 2
         '
         'txtEmail
         '
-        Me.txtEmail.Location = New System.Drawing.Point(442, 388)
+        Me.txtEmail.Location = New System.Drawing.Point(415, 373)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(297, 20)
         Me.txtEmail.TabIndex = 3
         '
         'txtStreetAddress
         '
-        Me.txtStreetAddress.Location = New System.Drawing.Point(22, 449)
+        Me.txtStreetAddress.Location = New System.Drawing.Point(33, 373)
         Me.txtStreetAddress.Name = "txtStreetAddress"
         Me.txtStreetAddress.Size = New System.Drawing.Size(297, 20)
         Me.txtStreetAddress.TabIndex = 4
         '
         'txtBarangay
         '
-        Me.txtBarangay.Location = New System.Drawing.Point(441, 449)
+        Me.txtBarangay.Location = New System.Drawing.Point(415, 421)
         Me.txtBarangay.Name = "txtBarangay"
         Me.txtBarangay.Size = New System.Drawing.Size(297, 20)
         Me.txtBarangay.TabIndex = 5
         '
         'txtCity
         '
-        Me.txtCity.Location = New System.Drawing.Point(22, 512)
+        Me.txtCity.Location = New System.Drawing.Point(33, 421)
         Me.txtCity.Name = "txtCity"
         Me.txtCity.Size = New System.Drawing.Size(297, 20)
         Me.txtCity.TabIndex = 6
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(442, 503)
+        Me.btnSave.Location = New System.Drawing.Point(646, 461)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(66, 29)
         Me.btnSave.TabIndex = 7
@@ -104,7 +104,7 @@ Partial Class frmCustomer
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(534, 503)
+        Me.btnUpdate.Location = New System.Drawing.Point(556, 461)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(73, 29)
         Me.btnUpdate.TabIndex = 8
@@ -132,7 +132,7 @@ Partial Class frmCustomer
         'dgvCustomers
         '
         Me.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCustomers.Location = New System.Drawing.Point(42, 6)
+        Me.dgvCustomers.Location = New System.Drawing.Point(61, 6)
         Me.dgvCustomers.Name = "dgvCustomers"
         Me.dgvCustomers.Size = New System.Drawing.Size(651, 234)
         Me.dgvCustomers.TabIndex = 11
@@ -140,7 +140,7 @@ Partial Class frmCustomer
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 280)
+        Me.Label1.Location = New System.Drawing.Point(138, 269)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 13)
         Me.Label1.TabIndex = 12
@@ -149,7 +149,7 @@ Partial Class frmCustomer
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(439, 280)
+        Me.Label2.Location = New System.Drawing.Point(542, 309)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 13)
         Me.Label2.TabIndex = 13
@@ -158,7 +158,7 @@ Partial Class frmCustomer
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(19, 357)
+        Me.Label3.Location = New System.Drawing.Point(114, 309)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(108, 13)
         Me.Label3.TabIndex = 14
@@ -167,7 +167,7 @@ Partial Class frmCustomer
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(439, 357)
+        Me.Label4.Location = New System.Drawing.Point(553, 357)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(39, 13)
         Me.Label4.TabIndex = 15
@@ -176,7 +176,7 @@ Partial Class frmCustomer
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(19, 421)
+        Me.Label5.Location = New System.Drawing.Point(114, 357)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(102, 13)
         Me.Label5.TabIndex = 16
@@ -185,7 +185,7 @@ Partial Class frmCustomer
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(438, 421)
+        Me.Label6.Location = New System.Drawing.Point(531, 405)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(66, 13)
         Me.Label6.TabIndex = 17
@@ -194,7 +194,7 @@ Partial Class frmCustomer
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(19, 483)
+        Me.Label7.Location = New System.Drawing.Point(149, 405)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(31, 13)
         Me.Label7.TabIndex = 18
@@ -205,7 +205,7 @@ Partial Class frmCustomer
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(797, 610)
+        Me.ClientSize = New System.Drawing.Size(857, 563)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
