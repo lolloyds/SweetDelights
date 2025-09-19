@@ -36,30 +36,30 @@ Partial Class frmProducts
         'dgvCakes
         '
         Me.dgvCakes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCakes.Location = New System.Drawing.Point(308, 31)
+        Me.dgvCakes.Location = New System.Drawing.Point(25, 38)
         Me.dgvCakes.Name = "dgvCakes"
-        Me.dgvCakes.Size = New System.Drawing.Size(347, 116)
+        Me.dgvCakes.Size = New System.Drawing.Size(604, 172)
         Me.dgvCakes.TabIndex = 0
         '
         'dgvIcing
         '
         Me.dgvIcing.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvIcing.Location = New System.Drawing.Point(308, 153)
+        Me.dgvIcing.Location = New System.Drawing.Point(25, 526)
         Me.dgvIcing.Name = "dgvIcing"
-        Me.dgvIcing.Size = New System.Drawing.Size(347, 116)
+        Me.dgvIcing.Size = New System.Drawing.Size(604, 175)
         Me.dgvIcing.TabIndex = 1
         '
         'dgvTopping
         '
         Me.dgvTopping.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvTopping.Location = New System.Drawing.Point(308, 275)
+        Me.dgvTopping.Location = New System.Drawing.Point(25, 284)
         Me.dgvTopping.Name = "dgvTopping"
-        Me.dgvTopping.Size = New System.Drawing.Size(347, 116)
+        Me.dgvTopping.Size = New System.Drawing.Size(604, 166)
         Me.dgvTopping.TabIndex = 2
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(110, 91)
+        Me.TextBox1.Location = New System.Drawing.Point(25, 12)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 3
@@ -68,7 +68,7 @@ Partial Class frmProducts
         '
         'dgvIcings
         '
-        Me.dgvIcings.Location = New System.Drawing.Point(110, 209)
+        Me.dgvIcings.Location = New System.Drawing.Point(25, 244)
         Me.dgvIcings.Name = "dgvIcings"
         Me.dgvIcings.Size = New System.Drawing.Size(100, 20)
         Me.dgvIcings.TabIndex = 4
@@ -77,7 +77,7 @@ Partial Class frmProducts
         '
         'dgvToppings
         '
-        Me.dgvToppings.Location = New System.Drawing.Point(110, 319)
+        Me.dgvToppings.Location = New System.Drawing.Point(25, 477)
         Me.dgvToppings.Name = "dgvToppings"
         Me.dgvToppings.Size = New System.Drawing.Size(100, 20)
         Me.dgvToppings.TabIndex = 5
@@ -88,8 +88,8 @@ Partial Class frmProducts
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.SystemColors.Info
+        Me.ClientSize = New System.Drawing.Size(800, 725)
         Me.Controls.Add(Me.dgvToppings)
         Me.Controls.Add(Me.dgvIcings)
         Me.Controls.Add(Me.TextBox1)

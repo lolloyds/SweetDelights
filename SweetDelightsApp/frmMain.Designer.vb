@@ -29,8 +29,8 @@ Partial Class frmMain
         '
         'btnCustomers
         '
-        Me.btnCustomers.BackColor = System.Drawing.SystemColors.Info
-        Me.btnCustomers.Location = New System.Drawing.Point(55, 166)
+        Me.btnCustomers.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.btnCustomers.Location = New System.Drawing.Point(301, 57)
         Me.btnCustomers.Name = "btnCustomers"
         Me.btnCustomers.Size = New System.Drawing.Size(190, 150)
         Me.btnCustomers.TabIndex = 0
@@ -39,8 +39,8 @@ Partial Class frmMain
         '
         'btnOrders
         '
-        Me.btnOrders.BackColor = System.Drawing.SystemColors.Info
-        Me.btnOrders.Location = New System.Drawing.Point(297, 166)
+        Me.btnOrders.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.btnOrders.Location = New System.Drawing.Point(80, 221)
         Me.btnOrders.Name = "btnOrders"
         Me.btnOrders.Size = New System.Drawing.Size(190, 150)
         Me.btnOrders.TabIndex = 1
@@ -49,8 +49,8 @@ Partial Class frmMain
         '
         'btnProducts
         '
-        Me.btnProducts.BackColor = System.Drawing.SystemColors.Info
-        Me.btnProducts.Location = New System.Drawing.Point(545, 166)
+        Me.btnProducts.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.btnProducts.Location = New System.Drawing.Point(527, 221)
         Me.btnProducts.Name = "btnProducts"
         Me.btnProducts.Size = New System.Drawing.Size(190, 150)
         Me.btnProducts.TabIndex = 2
@@ -61,13 +61,13 @@ Partial Class frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.btnProducts)
         Me.Controls.Add(Me.btnOrders)
         Me.Controls.Add(Me.btnCustomers)
         Me.Name = "frmMain"
-        Me.Text = "Form1"
+        Me.Text = "MAIN"
         Me.ResumeLayout(False)
 
     End Sub

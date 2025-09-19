@@ -46,85 +46,85 @@ Partial Class frmCustomer
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(22, 85)
+        Me.txtFirstName.Location = New System.Drawing.Point(22, 25)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(297, 20)
         Me.txtFirstName.TabIndex = 0
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(22, 124)
+        Me.txtLastName.Location = New System.Drawing.Point(472, 25)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(297, 20)
         Me.txtLastName.TabIndex = 1
         '
         'txtContactNumber
         '
-        Me.txtContactNumber.Location = New System.Drawing.Point(22, 163)
+        Me.txtContactNumber.Location = New System.Drawing.Point(22, 77)
         Me.txtContactNumber.Name = "txtContactNumber"
         Me.txtContactNumber.Size = New System.Drawing.Size(297, 20)
         Me.txtContactNumber.TabIndex = 2
         '
         'txtEmail
         '
-        Me.txtEmail.Location = New System.Drawing.Point(22, 202)
+        Me.txtEmail.Location = New System.Drawing.Point(472, 77)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(297, 20)
         Me.txtEmail.TabIndex = 3
         '
         'txtStreetAddress
         '
-        Me.txtStreetAddress.Location = New System.Drawing.Point(22, 241)
+        Me.txtStreetAddress.Location = New System.Drawing.Point(22, 128)
         Me.txtStreetAddress.Name = "txtStreetAddress"
         Me.txtStreetAddress.Size = New System.Drawing.Size(297, 20)
         Me.txtStreetAddress.TabIndex = 4
         '
         'txtBarangay
         '
-        Me.txtBarangay.Location = New System.Drawing.Point(21, 280)
+        Me.txtBarangay.Location = New System.Drawing.Point(472, 128)
         Me.txtBarangay.Name = "txtBarangay"
         Me.txtBarangay.Size = New System.Drawing.Size(297, 20)
         Me.txtBarangay.TabIndex = 5
         '
         'txtCity
         '
-        Me.txtCity.Location = New System.Drawing.Point(22, 319)
+        Me.txtCity.Location = New System.Drawing.Point(22, 177)
         Me.txtCity.Name = "txtCity"
         Me.txtCity.Size = New System.Drawing.Size(297, 20)
         Me.txtCity.TabIndex = 6
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(367, 319)
+        Me.btnSave.Location = New System.Drawing.Point(405, 235)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(82, 75)
+        Me.btnSave.Size = New System.Drawing.Size(66, 29)
         Me.btnSave.TabIndex = 7
         Me.btnSave.Text = "SAVE"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(472, 319)
+        Me.btnUpdate.Location = New System.Drawing.Point(496, 235)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(82, 75)
+        Me.btnUpdate.Size = New System.Drawing.Size(73, 29)
         Me.btnUpdate.TabIndex = 8
         Me.btnUpdate.Text = "UPDATE"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(576, 319)
+        Me.btnDelete.Location = New System.Drawing.Point(591, 235)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(82, 75)
+        Me.btnDelete.Size = New System.Drawing.Size(72, 29)
         Me.btnDelete.TabIndex = 9
         Me.btnDelete.Text = "DELETE"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(682, 319)
+        Me.btnClear.Location = New System.Drawing.Point(687, 235)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(82, 75)
+        Me.btnClear.Size = New System.Drawing.Size(82, 29)
         Me.btnClear.TabIndex = 10
         Me.btnClear.Text = "CLEAR"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -132,15 +132,15 @@ Partial Class frmCustomer
         'dgvCustomers
         '
         Me.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCustomers.Location = New System.Drawing.Point(367, 85)
+        Me.dgvCustomers.Location = New System.Drawing.Point(22, 297)
         Me.dgvCustomers.Name = "dgvCustomers"
-        Me.dgvCustomers.Size = New System.Drawing.Size(397, 210)
+        Me.dgvCustomers.Size = New System.Drawing.Size(747, 265)
         Me.dgvCustomers.TabIndex = 11
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 69)
+        Me.Label1.Location = New System.Drawing.Point(19, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 13)
         Me.Label1.TabIndex = 12
@@ -149,7 +149,7 @@ Partial Class frmCustomer
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(19, 108)
+        Me.Label2.Location = New System.Drawing.Point(469, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 13)
         Me.Label2.TabIndex = 13
@@ -158,7 +158,7 @@ Partial Class frmCustomer
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(19, 147)
+        Me.Label3.Location = New System.Drawing.Point(19, 61)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(108, 13)
         Me.Label3.TabIndex = 14
@@ -167,7 +167,7 @@ Partial Class frmCustomer
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(19, 186)
+        Me.Label4.Location = New System.Drawing.Point(469, 61)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(39, 13)
         Me.Label4.TabIndex = 15
@@ -176,7 +176,7 @@ Partial Class frmCustomer
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(19, 225)
+        Me.Label5.Location = New System.Drawing.Point(19, 112)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(102, 13)
         Me.Label5.TabIndex = 16
@@ -185,7 +185,7 @@ Partial Class frmCustomer
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(18, 264)
+        Me.Label6.Location = New System.Drawing.Point(469, 112)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(66, 13)
         Me.Label6.TabIndex = 17
@@ -194,7 +194,7 @@ Partial Class frmCustomer
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(19, 303)
+        Me.Label7.Location = New System.Drawing.Point(19, 161)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(31, 13)
         Me.Label7.TabIndex = 18
@@ -204,8 +204,8 @@ Partial Class frmCustomer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.SystemColors.Info
+        Me.ClientSize = New System.Drawing.Size(797, 610)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)

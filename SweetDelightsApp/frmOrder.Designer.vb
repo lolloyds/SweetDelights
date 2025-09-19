@@ -69,14 +69,14 @@ Partial Class frmOrder
         'cmbTopping
         '
         Me.cmbTopping.FormattingEnabled = True
-        Me.cmbTopping.Location = New System.Drawing.Point(491, 49)
+        Me.cmbTopping.Location = New System.Drawing.Point(126, 169)
         Me.cmbTopping.Name = "cmbTopping"
         Me.cmbTopping.Size = New System.Drawing.Size(257, 21)
         Me.cmbTopping.TabIndex = 3
         '
         'numQuantity
         '
-        Me.numQuantity.Location = New System.Drawing.Point(126, 165)
+        Me.numQuantity.Location = New System.Drawing.Point(126, 208)
         Me.numQuantity.Name = "numQuantity"
         Me.numQuantity.Size = New System.Drawing.Size(92, 20)
         Me.numQuantity.TabIndex = 4
@@ -107,7 +107,7 @@ Partial Class frmOrder
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(412, 49)
+        Me.TextBox4.Location = New System.Drawing.Point(47, 169)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(73, 20)
         Me.TextBox4.TabIndex = 8
@@ -115,7 +115,7 @@ Partial Class frmOrder
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(47, 165)
+        Me.TextBox5.Location = New System.Drawing.Point(47, 208)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(73, 20)
         Me.TextBox5.TabIndex = 9
@@ -126,12 +126,12 @@ Partial Class frmOrder
         Me.dgvOrderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvOrderDetails.Location = New System.Drawing.Point(47, 234)
         Me.dgvOrderDetails.Name = "dgvOrderDetails"
-        Me.dgvOrderDetails.Size = New System.Drawing.Size(701, 101)
+        Me.dgvOrderDetails.Size = New System.Drawing.Size(701, 216)
         Me.dgvOrderDetails.TabIndex = 10
         '
         'btnAddItem
         '
-        Me.btnAddItem.Location = New System.Drawing.Point(251, 162)
+        Me.btnAddItem.Location = New System.Drawing.Point(224, 206)
         Me.btnAddItem.Name = "btnAddItem"
         Me.btnAddItem.Size = New System.Drawing.Size(132, 23)
         Me.btnAddItem.TabIndex = 11
@@ -141,7 +141,7 @@ Partial Class frmOrder
         'lblTotal
         '
         Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTotal.Location = New System.Drawing.Point(105, 362)
+        Me.lblTotal.Location = New System.Drawing.Point(119, 456)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(72, 23)
         Me.lblTotal.TabIndex = 12
@@ -149,7 +149,7 @@ Partial Class frmOrder
         '
         'Label2
         '
-        Me.Label2.Location = New System.Drawing.Point(27, 362)
+        Me.Label2.Location = New System.Drawing.Point(44, 456)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 23)
         Me.Label2.TabIndex = 13
@@ -158,18 +158,18 @@ Partial Class frmOrder
         '
         'btnRemoveItem
         '
-        Me.btnRemoveItem.Location = New System.Drawing.Point(463, 362)
+        Me.btnRemoveItem.Location = New System.Drawing.Point(509, 456)
         Me.btnRemoveItem.Name = "btnRemoveItem"
-        Me.btnRemoveItem.Size = New System.Drawing.Size(132, 49)
+        Me.btnRemoveItem.Size = New System.Drawing.Size(120, 36)
         Me.btnRemoveItem.TabIndex = 14
         Me.btnRemoveItem.Text = "REMOVE ITEM"
         Me.btnRemoveItem.UseVisualStyleBackColor = True
         '
         'btnPlaceOrder
         '
-        Me.btnPlaceOrder.Location = New System.Drawing.Point(616, 362)
+        Me.btnPlaceOrder.Location = New System.Drawing.Point(645, 456)
         Me.btnPlaceOrder.Name = "btnPlaceOrder"
-        Me.btnPlaceOrder.Size = New System.Drawing.Size(132, 49)
+        Me.btnPlaceOrder.Size = New System.Drawing.Size(103, 36)
         Me.btnPlaceOrder.TabIndex = 15
         Me.btnPlaceOrder.Text = "PLACE ORDER"
         Me.btnPlaceOrder.UseVisualStyleBackColor = True
@@ -179,8 +179,8 @@ Partial Class frmOrder
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.SystemColors.Info
+        Me.ClientSize = New System.Drawing.Size(800, 606)
         Me.Controls.Add(Me.btnPlaceOrder)
         Me.Controls.Add(Me.btnRemoveItem)
         Me.Controls.Add(Me.Label2)
